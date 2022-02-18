@@ -1,0 +1,154 @@
+body {
+    background-color:rgb(3, 0, 3);
+    background-image:url("/images/haircuts.jpg");
+    background-size:cover;
+    border: 3px none;
+    font-family: 'Gideon Roman', cursive;
+    font-family: 'Saira', sans-serif;
+  }
+  .heading {
+    width: 97%;
+    height: 100px;
+    background-color: rgb(75, 17, 72);
+    border: none;
+    border-color: black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 1%;
+    text-align: center;
+    padding-top: 25px;
+    color: rgb(215, 204, 216);
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 75px;
+    
+  }
+  p {
+    font-family: 'Gideon Roman', cursive;
+  }
+  
+
+  .coconutlogo {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    display:flex;
+    color: #74f59a93;
+    text-align: center;
+    padding-left: 28px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .topnav a.logo {
+  height: 1px;
+  vertical-align: middle;
+  }
+  .navbar {
+    width: 97%;
+    height: 75px;
+    background-color: white;  
+    border-color: black;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+  }
+  .section {
+    float: left;
+    width: 35%;
+    height:100px;
+    background-color: rgb(75, 17, 72);
+    border-color: none;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+    padding-top: 75px;
+  }
+  .aside {
+    float: right;
+    width: 61%;
+    height: 210px;
+    border: none;
+    border-color: none;
+    background-color:rgb(75, 17, 72);
+    background-image: url(/images/hair.jpg);
+    border: 10px;
+    margin: auto;
+    padding:auto;
+    
+    background-size: cover;
+    margin-bottom: 10px;
+    margin-right: 1%;
+    text-align: center;
+    padding-top: 150px;
+  }
+  .article {
+    float: left;
+    width: 35%;
+    height:100px;
+    background-color:rgb(75, 17, 72);
+    border: none; 
+    border-color: none;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+    padding-top: 75px;
+  }
+  .footer {
+    width: 97%;
+    height: 100px;
+    background-color: whitesmoke;
+    border: none;  
+    border-color: none;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    clear: both;
+    text-align: center;
+    padding-top: 25px;
+  }
+  .shadow {
+    box-shadow: 5px 10px 20px rgb(240, 188, 227) inset;
+  }
+  .text {
+    color:white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 25px;
+  }
+  .logo{
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  ul {
+    float: left;
+  }
+  li {
+    float: left;
+    list-style-type: none;
+    align-items: center;
+  }
+  /* unvisited link */
+  a:link {
+    color: rgb(14, 13, 13);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(8, 112, 182);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(116, 236, 176);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(232, 177, 248);
+  }
+  .sticky {
+  position:-webkit-sticky;
+  position: sticky;
+  top: 20px;
+  }
+  
